@@ -1,0 +1,35 @@
+{
+  "name": "eve-cli",
+  "version": "0.0.1",
+  "description": "Command line interface to various EVE Online services",
+  "license": "MIT",
+  "engines": {
+    "node": "^0.10",
+    "iojs": "^1",
+    "npm": "^2.7"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.24",
+    "colors": "^1.0.3",
+    "ramda": "^0.13.0",
+    "request": "^2.55.0",
+    "xml2js": "^0.4.8"
+  },
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.4",
+    "nock": "^1.7.0",
+    "request-debug": "^0.1.1",
+    "sinon": "^1.14.1",
+    "sinon-chai": "^2.7.0"
+  },
+  "scripts": {},
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xigz/eve-cli.git"
+  },
+  "bugs": {
+    "url": "http://github.com/xigz/eve-cli/issues"
+  }
+}
